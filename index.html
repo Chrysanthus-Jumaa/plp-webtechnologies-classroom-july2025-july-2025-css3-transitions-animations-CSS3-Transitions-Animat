@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS & JS Animation Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Interactive Animation Showcase</h1>
+
+  <!-- Part 1: CSS-only animations -->
+  <button class="hover-button">Hover Me</button>
+  <div class="fade-box"></div>
+
+  <!-- Part 3: JS-triggered animations -->
+  <button onclick="animateBox()">Animate Box</button>
+  <div id="animated-box"></div>
+
+  <button onclick="toggleModal()">Toggle Modal</button>
+  <div id="modal" class="modal hidden">
+    <p>This is a modal popup!</p>
+    <button onclick="toggleModal()">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
